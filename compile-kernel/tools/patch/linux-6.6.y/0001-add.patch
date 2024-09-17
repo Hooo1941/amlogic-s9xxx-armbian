@@ -1,0 +1,26 @@
+From d8160fff32703d9b3519400e76fc320a301c701c Mon Sep 17 00:00:00 2001
+From: Hooo1941 <jiahao1941@outlook.com>
+Date: Tue, 17 Sep 2024 22:44:06 +0800
+Subject: [PATCH] add
+
+---
+ drivers/gpu/drm/bridge/synopsys/dw-hdmi.h | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/drivers/gpu/drm/bridge/synopsys/dw-hdmi.h b/drivers/gpu/drm/bridge/synopsys/dw-hdmi.h
+index af43a0414..fdef12cb7 100644
+--- a/drivers/gpu/drm/bridge/synopsys/dw-hdmi.h
++++ b/drivers/gpu/drm/bridge/synopsys/dw-hdmi.h
+@@ -545,8 +545,8 @@ enum {
+
+ /* PRODUCT_ID1 field values */
+        HDMI_PRODUCT_ID1_HDCP = 0xc0,
+-       HDMI_PRODUCT_ID1_HDMI_RX = 0x02,
+-       HDMI_PRODUCT_ID1_HDMI_TX = 0x01,
++       HDMI_PRODUCT_ID1_HDMI_RX = 0x0d,
++       HDMI_PRODUCT_ID1_HDMI_TX = 0x0d,
+
+ /* CONFIG0_ID field values */
+        HDMI_CONFIG0_I2S = 0x10,
+--
+2.46.1
