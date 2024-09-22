@@ -1,11 +1,12 @@
-From 8867acc14abf32abd74f878e0da906c291e11c78 Mon Sep 17 00:00:00 2001
+From 520a8c544645a2d7b850b8fe64b2956a20d480bf Mon Sep 17 00:00:00 2001
 From: Hooo1941 <jiahao1941@outlook.com>
 Date: Sat, 21 Sep 2024 22:52:48 +0800
 Subject: [PATCH] add
 
 ---
  drivers/gpu/drm/bridge/synopsys/dw-hdmi.h | 4 ++--
- 1 file changed, 2 insertions(+), 2 deletions(-)
+ include/drm/bridge/dw_hdmi.h              | 2 +-
+ 2 files changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/drivers/gpu/drm/bridge/synopsys/dw-hdmi.h b/drivers/gpu/drm/bridge/synopsys/dw-hdmi.h
 index af43a0414..6f941c41c 100644
@@ -26,6 +27,19 @@ index af43a0414..6f941c41c 100644
  
  /* CONFIG0_ID field values */
  	HDMI_CONFIG0_I2S = 0x10,
+diff --git a/include/drm/bridge/dw_hdmi.h b/include/drm/bridge/dw_hdmi.h
+index 6a46baa07..1aa1aeced 100644
+--- a/include/drm/bridge/dw_hdmi.h
++++ b/include/drm/bridge/dw_hdmi.h
+@@ -88,7 +88,7 @@ enum dw_hdmi_phy_type {
+ 	DW_HDMI_PHY_DWC_MHL_PHY = 0xc2,
+ 	DW_HDMI_PHY_DWC_HDMI_3D_TX_PHY_HEAC = 0xe2,
+ 	DW_HDMI_PHY_DWC_HDMI_3D_TX_PHY = 0xf2,
+-	DW_HDMI_PHY_DWC_HDMI20_TX_PHY = 0xf3,
++	DW_HDMI_PHY_DWC_HDMI20_TX_PHY = 0x0d,
+ 	DW_HDMI_PHY_VENDOR_PHY = 0xfe,
+ };
+ 
 -- 
 2.46.1
 
